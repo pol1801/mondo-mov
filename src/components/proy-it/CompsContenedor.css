@@ -1,0 +1,27 @@
+.comps-contenedor {
+    width: 100%; /* Ocupa todo el ancho en móviles */
+    max-width: 315px; /* Limita el ancho máximo para mantener un tamaño manejable */
+    height: auto;
+    aspect-ratio: 1 / 1; /* Mantiene la proporción cuadrada */
+    color: #175291;
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 25px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para pantallas más grandes (tablet o más amplio) */
+  @media screen and (min-width: 768px) {
+    .comps-contenedor {
+        flex-direction: row;
+      width: 30%; /* Distribuye los PageComp en una fila */
+      max-width: 315px;
+      height: auto;
+      aspect-ratio: 1 / 1;
+    }
+  }

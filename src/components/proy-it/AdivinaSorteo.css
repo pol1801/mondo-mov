@@ -1,0 +1,40 @@
+.adivina-contenedor {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 25;
+    border: 0;
+    padding: 25;
+    background-color:rgb(189, 53, 189);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+.adivina {
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(31, 139, 58);
+    border-radius: 10px;
+}
+
+.adivina-result {
+    margin: 25px;
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    background-color:coral;
+    border-radius: 10px;
+
+}
