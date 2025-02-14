@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+/* import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; */
 import { ThemeProvider, CssBaseline, Box, GlobalStyles } from '@mui/material';
 import { getTheme } from './themes/theme';
 import Footer from './components/Footer';
