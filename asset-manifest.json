@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mondo-mov/static/css/main.afdc0a29.css",
-    "main.js": "/mondo-mov/static/js/main.d4963fde.js",
+    "main.js": "/mondo-mov/static/js/main.0b57aa6c.js",
     "static/media/dm-serif-display-latin-400-normal.woff2": "/mondo-mov/static/media/dm-serif-display-latin-400-normal.918b5997b79b6ebcb2c4.woff2",
     "static/media/dm-serif-display-latin-400-normal.woff": "/mondo-mov/static/media/dm-serif-display-latin-400-normal.ea5aa693a9b1a7f29da1.woff",
     "static/media/img2.png": "/mondo-mov/static/media/img2.f21015251e13ad892146.png",
@@ -68,10 +68,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/mondo-mov/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/mondo-mov/index.html",
     "main.afdc0a29.css.map": "/mondo-mov/static/css/main.afdc0a29.css.map",
-    "main.d4963fde.js.map": "/mondo-mov/static/js/main.d4963fde.js.map"
+    "main.0b57aa6c.js.map": "/mondo-mov/static/js/main.0b57aa6c.js.map"
   },
   "entrypoints": [
     "static/css/main.afdc0a29.css",
-    "static/js/main.d4963fde.js"
+    "static/js/main.0b57aa6c.js"
   ]
 }
