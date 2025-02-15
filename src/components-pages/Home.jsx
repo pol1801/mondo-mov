@@ -29,7 +29,7 @@ const Home = () => {
           component="div"
           sx={{
             fontSize: {
-              xs: '1.4rem',
+              xs: '1.8rem',
               sm: '2.2rem',
               md: '3.5rem',
               lg: '4rem',

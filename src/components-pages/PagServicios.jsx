@@ -30,15 +30,11 @@ export default function PagServicios() {
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} 
         sx={{ 
           backgroundColor: 'transparent',
-          /* width: '100%', */
-          /* background: 'linear-gradient(90deg, #1976d2, #00b359)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent', */
           mb: 0
           }} >
         <AccordionSummary
           sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
-          expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}} />}
+          expandIcon={<ExpandMoreIcon sx= {{ color: 'primary.main'}} />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
@@ -48,7 +44,6 @@ export default function PagServicios() {
               background: 'linear-gradient(90deg, #1976d2, #00b359)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
-              /* color: 'secondary.main', */ 
               color: 'transparent',
               fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
               fontWeight: 700, 
@@ -64,7 +59,7 @@ export default function PagServicios() {
             background: 'linear-gradient(90deg, #1976d2, #00b359)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
-            /* color: 'secondary.main', */ 
+            color: 'transparent',
             fontSize: { xs: '1rem', md: '1.1rem' },
             fontWeight: 500, 
             lineHeight: 1.1,
@@ -77,22 +72,23 @@ export default function PagServicios() {
       {/* Motion Graphics */}
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}
         sx={{ 
-          /* width: '100%', */
-          background: 'linear-gradient(90deg, #1976d2, #00b359)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          mb: 0,
+          backgroundColor: 'transparent',
+          mb: 0
           }}
         >
         <AccordionSummary
           sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
-          expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}}/>}
+          expandIcon={<ExpandMoreIcon sx= {{color: 'primary.main'}}/>}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
           <Typography
           variant="h6"  component="div"
-          sx={{ color: 'secondary.main',
+          sx={{ 
+            background: 'linear-gradient(90deg, #1976d2, #00b359)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            color: 'transparent',
             fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
             fontWeight: 700,
             flexShrink: 0 }}>
@@ -103,7 +99,11 @@ export default function PagServicios() {
         <AccordionDetails sx={{ py: 3, paddingTop: 0 }}>
           <Typography
             variant="body1" component="div"
-            sx={{ color: 'secondary.main',
+            sx={{ 
+            background: 'linear-gradient(90deg, #1976d2, #00b359)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            color: 'transparent',
             fontSize: { xs: '1rem', md: '1.1rem' },
             fontWeight: 500,
             lineHeight: 1.1,
@@ -116,23 +116,23 @@ export default function PagServicios() {
       {/* Edición de Audio y Video */}
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} 
         sx={{ 
-          /* width: '100%', */
-          background: 'linear-gradient(90deg, #1976d2, #00b359)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          mb: 0,
+          backgroundColor: 'transparent',
+          mb: 0
           }}
         >
         <AccordionSummary
           sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
-          expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}}/>}
+          expandIcon={<ExpandMoreIcon sx= {{color: 'primary.main'}}/>}
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
           <Typography 
             variant="h6"  component="div"
             sx={{ 
-            color: 'secondary.main',
+            background: 'linear-gradient(90deg, #1976d2, #00b359)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            color: 'transparent',
             fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
             fontWeight: 700,
             flexShrink: 0 }}>
@@ -144,7 +144,10 @@ export default function PagServicios() {
           <Typography
             variant="body1" component="div"
             sx={{ 
-              color: 'secondary.main',
+              background: 'linear-gradient(90deg, #1976d2, #00b359)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              color: 'transparent',
               fontSize: { xs: '1rem', md: '1.1rem' },
               fontWeight: 500,
               lineHeight: 1.1,
@@ -157,23 +160,23 @@ export default function PagServicios() {
       {/* Desarrollo Full-Stack */}
       <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} 
         sx={{ 
-          /* width: '100%', */
-          background: 'linear-gradient(90deg, #1976d2, #00b359)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
-          mb: 0,
+          backgroundColor: 'transparent',
+          mb: 0
           }}
       >
         <AccordionSummary
           sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
-          expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}}/>}
+          expandIcon={<ExpandMoreIcon sx= {{color: 'primary.main'}}/>}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography 
           variant="h6"  component="div"
           sx={{ 
-            color: 'secondary.main',
+            background: 'linear-gradient(90deg, #1976d2, #00b359)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            color: 'transparent',
             fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
             fontWeight: 700,
             flexShrink: 0 }}>
@@ -184,7 +187,10 @@ export default function PagServicios() {
           <Typography
             variant="body1" component="div"
             sx={{ 
-              color: 'secondary.main',
+              background: 'linear-gradient(90deg, #1976d2, #00b359)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              color: 'transparent',
               fontSize: { xs: '1rem', md: '1.1rem' },
               lineHeight: 1.1,
               fontWeight: 500,
