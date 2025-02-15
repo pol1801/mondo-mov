@@ -19,7 +19,7 @@ const Home = () => {
       {/* Primer bloque de texto */}
       <Box
         sx={{
-          my: { xs: 2, md: 4, lg: 4 },
+          my: { xs: 2, md: 2, lg: 2 },
           background: 'linear-gradient(180deg, #1976d2, #00b359)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
@@ -39,7 +39,8 @@ const Home = () => {
             lineHeight: 1.2,
             textAlign: { xs: 'left', md: 'left' },
             wordBreak: 'break-word',
-            marginLeft: { xs: 3, md: 10, lg: 50 }
+            marginLeft: { xs: 3, md: 10, lg: 50 },
+            marginBottom: 0
           }}
         >
           Hola!, soy Pablo, 
@@ -72,7 +73,8 @@ const Home = () => {
             lineHeight: 1.1,
             textAlign: { xs: 'left', md: 'left' },
             wordBreak: 'break-word',
-            marginLeft: { xs: 3, md: 10, lg: 50 }
+            marginLeft: { xs: 3, md: 10, lg: 50 },
+            marginTop: 0
           }}
         >
           <Box component="br" display={{ xs: 'none', md: 'block' }} />

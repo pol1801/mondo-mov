@@ -44,7 +44,6 @@ function App() {
             minHeight: '100vh',
             display: 'flex',
             flexDirection: 'column',
-            minHeight: '100vh',
           }}
         >
           

@@ -1,8 +1,5 @@
 import * as React from 'react';
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import Typography from '@mui/material/Typography';
+import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Box } from '@mui/material';
 
@@ -32,22 +29,27 @@ export default function PagServicios() {
         {/* Videos de Animación */}
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} 
         sx={{ 
+          backgroundColor: 'transparent',
           /* width: '100%', */
-          background: 'linear-gradient(90deg, #1976d2, #00b359)',
+          /* background: 'linear-gradient(90deg, #1976d2, #00b359)',
           WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
+          WebkitTextFillColor: 'transparent', */
           mb: 0
           }} >
         <AccordionSummary
-          sx={{ minHeight: { xs: 60, md: 90 } }}
+          sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
           expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}} />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
           <Typography 
-            variant="h2"  component="div"
+            variant="h6"  component="div"
             sx={{ 
-              color: 'secondary.main', 
+              background: 'linear-gradient(90deg, #1976d2, #00b359)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              /* color: 'secondary.main', */ 
+              color: 'transparent',
               fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
               fontWeight: 700, 
               flexShrink: 0 }}>
@@ -58,7 +60,11 @@ export default function PagServicios() {
         <AccordionDetails sx={{ py: 3, paddingTop: 0 }}>
           <Typography 
           variant="body1" component="div"
-          sx={{ color: 'secondary.main', 
+          sx={{ 
+            background: 'linear-gradient(90deg, #1976d2, #00b359)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            /* color: 'secondary.main', */ 
             fontSize: { xs: '1rem', md: '1.1rem' },
             fontWeight: 500, 
             lineHeight: 1.1,
@@ -79,13 +85,13 @@ export default function PagServicios() {
           }}
         >
         <AccordionSummary
-          sx={{ minHeight: { xs: 60, md: 90 } }}
+          sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
           expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}}/>}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
           <Typography
-          variant="h2"  component="div"
+          variant="h6"  component="div"
           sx={{ color: 'secondary.main',
             fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
             fontWeight: 700,
@@ -118,13 +124,13 @@ export default function PagServicios() {
           }}
         >
         <AccordionSummary
-          sx={{ minHeight: { xs: 60, md: 90 } }}
+          sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
           expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}}/>}
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
           <Typography 
-            variant="h2"  component="div"
+            variant="h6"  component="div"
             sx={{ 
             color: 'secondary.main',
             fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
@@ -159,13 +165,13 @@ export default function PagServicios() {
           }}
       >
         <AccordionSummary
-          sx={{ minHeight: { xs: 60, md: 90 } }}
+          sx={{ visibility: 'visible', minHeight: { xs: 60, md: 90 } }}
           expandIcon={<ExpandMoreIcon sx= {{color: 'secondary.main'}}/>}
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
           <Typography 
-          variant="h2"  component="div"
+          variant="h6"  component="div"
           sx={{ 
             color: 'secondary.main',
             fontSize: { xs: '1.1rem', sm: '1.3rem', md: '1.5rem' },
