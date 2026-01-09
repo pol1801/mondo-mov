@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { TextField, Button, Container } from '@mui/material';
+import { TextField, Button, Container, IconButton, InputAdornment } from '@mui/material';
+import { Visibility, VisibilityOff } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from "../context/AuthContext";
 import { login as logUser } from "../api/api";
@@ -13,6 +14,8 @@ const Login = ({ onLogin }) => {
         email: '',
         password: ''
     });
+
+    const [showPassword, setShowPassword] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -61,10 +64,22 @@ const Login = ({ onLogin }) => {
                     label="Password"
                     margin="normal"
                     name="password"
-                    type="password"
+                    type={showPassword ? 'text' : 'password'}
                     value={loginData.password}
                     onChange={handleChange}
-                    required 
+                    required
+                    InputProps={{
+            endAdornment: (
+              <InputAdornment position="end">
+                <IconButton
+                  onClick={() => setShowPassword(!showPassword)}
+                  edge="end"
+                >
+                  {showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            )
+          }} 
                 />
                 <Button variant="contained" onClick={() => handleLogin()} sx={{ mt: 2 }}>
                     Login
